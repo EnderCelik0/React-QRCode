@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-component {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1.3rem;
+}
+
+.qr-img {
+  border-radius: 10px;
+}
+
+.qr-header {
+  margin-bottom: 0px;
+  margin-top: 25=px;
+  color: hsl(218, 44%, 22%);
+}
+
+.qr-description {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  padding: 1.1rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
